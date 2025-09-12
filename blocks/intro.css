@@ -1,0 +1,55 @@
+.intro {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: 830px;
+  margin: 92px 302px 132px 148px;
+}
+
+.intro__title {
+  font-weight: 900;
+  font-size: 54px;
+  line-height: 58px;
+  margin: 0 0;
+  flex-wrap: wrap;
+}
+
+.intro__text {
+  width: 738px;
+  height: 136px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 34px;
+  margin: 40px 0 0;
+}
+
+.intro__text_cite {
+  margin: 10px 0 0;
+  width: 738px;
+  height: 34px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 34px;
+  text-align: end;
+}
+
+.intro__text_content {
+  width: 722px;
+  height: 182px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 34px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer__autor {
+  margin: 92px 0 24px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+}

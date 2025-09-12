@@ -1,0 +1,37 @@
+.lead {
+  position: relative;
+}
+
+.lead__cover {
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  margin: 91px auto;
+  max-width: 984px;
+  max-height: 983px;
+  text-align: center;
+}
+
+.lead__cover_title {
+  font-size: 96px;
+  font-weight: 900;
+  line-height: 100px;
+  max-width: 720px;
+  max-height: 200px;
+  margin: 0 auto 0;
+}
+
+.lead__cover_subtitle {
+  max-height: 72px;
+  max-width: 720px;
+  margin: 32px auto 0;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+}
+
+.lead__cover_image {
+  width: 984px;
+  height: 615px;
+  margin: 64px auto 0;
+}
