@@ -1,4 +1,4 @@
-.content {
+.lead__content {
   max-width: 1280px;
   text-align: center;
 }
@@ -60,7 +60,7 @@
 }
 
 @media screen and (max-width: 320px) {
-  .content {
+  .lead__content {
     max-width: 320px;
     text-align: center;
   }
