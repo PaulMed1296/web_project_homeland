@@ -10,3 +10,27 @@
   font-size: 14px;
   line-height: 16px;
 }
+
+@media screen and (max-width: 1280px) {
+}
+
+@media screen and (max-width: 768px) {
+  .footer__autor {
+    margin: 88px 0 24px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .footer__autor {
+    width: 194px;
+    height: 14px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: center;
+    margin: 64px 0 24px;
+  }
+}
