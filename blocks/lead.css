@@ -1,5 +1,8 @@
 .lead__content {
   max-width: 1280px;
+}
+
+.lead__content_cover {
   text-align: center;
 }
 
