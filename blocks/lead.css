@@ -1,8 +1,8 @@
-.lead__content_cover {
+.lead__content {
   text-align: center;
 }
 
-.lead__cover_title {
+.lead__content_title {
   font-size: 96px;
   font-weight: 900;
   line-height: 100px;
@@ -11,7 +11,7 @@
   margin: 91px auto 32px;
 }
 
-.lead__cover_subtitle {
+.lead__content_subtitle {
   max-height: 72px;
   max-width: 720px;
   margin: 32px auto 0;
@@ -20,7 +20,7 @@
   line-height: 36px;
 }
 
-.lead__cover_image {
+.lead__content_image {
   width: 984px;
   height: 615px;
   margin: 64px auto 25px 0;
@@ -33,7 +33,7 @@
   .lead__cover {
   }
 
-  .lead__cover_title {
+  .lead__content_title {
     font-size: 75px;
     font-weight: 900;
     line-height: 79px;
@@ -42,7 +42,7 @@
     margin: 0 auto 0;
   }
 
-  .lead__cover_subtitle {
+  .lead__content_subtitle {
     max-height: 72px;
     max-width: 720px;
     margin: 25px auto 0;
@@ -51,7 +51,7 @@
     line-height: 36px;
   }
 
-  .lead__cover_image {
+  .lead__content_image {
     width: 768px;
     height: 480px;
     margin: 30px 0 90px 0;
@@ -59,7 +59,7 @@
 }
 
 @media screen and (max-width: 320px) {
-  .lead__cover_title {
+  .lead__content_title {
     font-size: 40px;
     font-weight: 900;
     line-height: 44px;
@@ -68,7 +68,7 @@
     margin: 50px auto 16px;
   }
 
-  .lead__cover_subtitle {
+  .lead__content_subtitle {
     max-height: 40px;
     max-width: 288px;
     margin: 16px auto 0;
@@ -77,7 +77,7 @@
     line-height: 20px;
   }
 
-  .lead__cover_image {
+  .lead__content_image {
     width: 320px;
     height: 200px;
     margin: 40px auto 64px 0;
