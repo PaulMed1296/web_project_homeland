@@ -14,7 +14,7 @@
   grid-gap: 48px 40px;
 }
 
-.places__container_title {
+.places__container-title {
   max-width: 460px;
   height: max-content;
   font-family: "inter-black", sans-serif;
@@ -25,23 +25,23 @@
   grid-row: 1;
 }
 
-.places__container_image {
+.places__container-image {
   max-width: 460px;
   max-height: 460px;
   grid-column: 1/4;
   grid-row: 2/5;
 }
 
-.places__container_image:hover {
+.places__container-image:hover {
   box-shadow: 5px 5px 10px 0px #00000040;
 }
 
-.places__container_image-item {
+.places__container-imageitem {
   width: 100%;
   height: max-content;
 }
 
-.places__container_frame-text {
+.places__container-frame {
   text-decoration: none;
   padding: 15px;
   font-size: 18px;
@@ -55,11 +55,11 @@
   grid-row: 5;
 }
 
-.places__container_frame-text:hover {
+.places__container_frame:hover {
   box-shadow: 5px 5px 10px 0px #00000040;
 }
 
-.places__container_author {
+.places__container-author {
   text-decoration: none;
   color: white;
   font-size: 18px;
@@ -68,18 +68,18 @@
   padding-top: 12%;
 }
 
-.places__container_website-url {
+.places__container-websiteurl {
   font-size: 12px;
   color: #aaa;
   letter-spacing: 3px;
 }
 
-.places__container_website-artist {
+.places__container-websiteartist {
   line-height: 22px;
   margin: 0;
 }
 
-.places__container_text {
+.places__container-text {
   max-width: 484px;
   line-height: 1.6;
   grid-column: span 3;
@@ -90,7 +90,7 @@
 @media screen and (max-width: 1280px) {
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 760px) {
   .places {
     max-width: 720px;
     gap: 72px;
@@ -100,29 +100,29 @@
     grid-template-rows: 90px 1fr repeat(2, 50px);
   }
 
-  .places__container_title {
+  .places__container-title {
     font-size: 42px;
     line-height: 46px;
     padding-top: 12%;
   }
 
-  .places__container_image {
+  .places__container-image {
     max-width: 340px;
     max-height: 340px;
     grid-row: 2 / 4;
   }
 
-  .places__container_frame-text {
+  .places__container-frame {
     grid-column: 1 / 4;
     grid-row: 4;
     font-size: 14px;
   }
 
-  .places__container_author {
+  .places__container-author {
     padding: 10px;
   }
 
-  .places__container_text {
+  .places__container-text {
     max-width: 352px;
     font-size: 12px;
     grid-column: span 3;
@@ -143,31 +143,31 @@
     grid-gap: 30px 0;
   }
 
-  .places__container_title {
+  .places__container-title {
     font-size: 32px;
     line-height: 35px;
   }
 
-  .places__container_image {
+  .places__container-image {
     max-width: 320px;
     max-height: 320px;
     grid-column: 1;
     grid-row: 3;
   }
 
-  .places__container_frame-text {
+  .places__container-frame {
     max-width: 320px;
     font-size: 14px;
     grid-row: 6;
   }
 
-  .places__container_author {
+  .places__container-author {
     grid-row: 2;
     grid-column: 1;
     padding: 0;
   }
 
-  .places__container_text {
+  .places__container-text {
     max-width: 290px;
     grid-column: 1;
     grid-row: 4;
